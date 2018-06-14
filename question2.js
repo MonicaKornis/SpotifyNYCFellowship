@@ -20,11 +20,5 @@ function decodeString(s) {
     }
   });
 
-  console.log(final);
   return final;
 }
-
-decodeString('2[b3[a]]');
-decodeString("4[ab]");
-
-decodeString("4[AZ2[bb2[c]]]");
